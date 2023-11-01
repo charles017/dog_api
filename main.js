@@ -10,8 +10,7 @@ function createBreedList(breedList) {
   document.getElementById("breed").innerHTML = `
     <select class="form-select form-select-lg mb-3" aria-label="Large select example">
             <option selected class="text-center">Choose a dog breed</option>
-            ${Object.keys(breedList)
-              .map(function (breed) {
+            ${Object.keys(breedList).map(function (breed) {
                 return `<option>${breed}</option>`;
               })
               .join("")}
