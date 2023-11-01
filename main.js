@@ -4,7 +4,7 @@ async function start() {
   createBreedList(data.message);
 }
 
-start();
+start()
 
 function createBreedList(breedList) {
   document.getElementById("breed").innerHTML = `
